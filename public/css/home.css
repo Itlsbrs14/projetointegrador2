@@ -1,0 +1,88 @@
+.title {
+    display: flex;
+    margin:0 auto;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+}
+.title h3 {
+ font-size: 45px;
+  background: black;
+  width: 800px;
+  height:94%;
+    color:cyan;
+    font-weight: bold
+}
+
+label, date_end {
+   display: block;
+   color: cyan;
+  font-size:35px;
+   align-items: center;
+    margin-left: 37%;
+    margin-top: 20px;
+
+}
+form {
+   margin: 0 auto;
+  font-size:30px;
+  background:red ;
+  width: 700px;
+  height: 840px;
+}
+
+input, date_ini {
+  display: block;
+    width: 600px;
+    padding: 8px;
+    color: black;
+    margin-left: 37px;
+    margin-top: 16px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+}
+
+input:hover, date_ini, input:focus, date_ini:focus {
+   border-color:#000066;
+   box-shadow: 5px 0px 9 px #FFFF00;
+   background-color: #e2e2e2;
+   color: black;
+   font-weight: bold
+
+}
+span, days {
+   color: #000;
+   background: cyan;
+   font-size:35px;
+  width: 300%;
+     margin-left: 43%;
+    margin-top: 10px;
+}
+.contar{ 
+  text-align: center;
+ }
+
+.btn-outline-info {
+    height: 100px;
+  font-size:35px;
+    width: 200px;
+    margin-left: 39%;
+    font-weight: bold;
+    border: 1px solid;
+}
+
+@media only screen and (max-width: 500px) {
+    .tittle h3{
+        justify-content: center;
+    }
+
+    form{
+        flex-direction: column;
+        width: 90%;
+         max-width: 400px;
+         height: 100px;
+    }
+}
